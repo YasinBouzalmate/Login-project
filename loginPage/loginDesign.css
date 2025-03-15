@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.logInContainer {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.logInBox {
+  background-color: rgba(255, 255, 255, 0.2);
+
+  margin: auto;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.logInBox h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.logInBox input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.logInBox button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+#loginSymbol {
+  transform: scale(1.7);
+}
+
+.logInBox button:hover {
+  background-color: #444;
+}
+.registerLink {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.registerLink p {
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #222;
+  cursor: pointer;
+}
+
+.registerLink button:hover {
+  background-color: #444;
+}
