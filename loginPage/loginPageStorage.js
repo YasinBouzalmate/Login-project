@@ -25,9 +25,10 @@ loginBtn.addEventListener("click", function () {
     storedData.email === email &&
     storedData.password === password
   ) {
-    console.log("correct info");
-    window.location.href = "http://127.0.0.1:5500/welcomePage/welcome.html";
-    return;
+    alert("Success! Your information is correct");
+    setTimeout(function () {
+      window.location.href = "http://127.0.0.1:5500/welcomePage/welcome.html";
+    }, 1000);
   } else {
     alert("wrong Username, Mail or Password. please try againg!");
   }
