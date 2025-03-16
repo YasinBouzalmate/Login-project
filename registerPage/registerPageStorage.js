@@ -36,7 +36,3 @@ registerBtn.addEventListener("click", function () {
   localStorage.setItem("userData", JSON.stringify(userData));
   alert("Registration successful! You can now log in");
 });
-
-//tillegg du senere kan adde:
-//  det kan ikke registrere samme value som allerede ligger i localStorage
-//localstorage lagrer det du har skrevet inn ved å trykke på enter knappen

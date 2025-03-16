@@ -1,5 +1,3 @@
-console.log("login page");
-
 const loginUsername = document.getElementById("loginUsername");
 const loginEmail = document.getElementById("loginEmail");
 const loginPassword = document.getElementById("loginPassword");
